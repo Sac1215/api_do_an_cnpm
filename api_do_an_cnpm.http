@@ -1,0 +1,7 @@
+﻿@api_do_an_cnpm_HostAddress = http://localhost:3000
+
+GET {{api_do_an_cnpm_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
+

@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="../build/api_do_an_cnpm.props" />
+</Project>
