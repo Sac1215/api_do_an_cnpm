@@ -87,6 +87,7 @@ namespace api_do_an_cnpm.Controllers
                 }
 
                 var appUser = _mapper.Map<AppUser>(appUserDto);
+               
                 appUser.PasswordHash = _userManager.PasswordHasher.HashPassword(appUser, appUserDto.Password);
                 appUser.Role = "Student";
                 var result = await _userManager.CreateAsync(appUser);
@@ -192,10 +193,7 @@ namespace api_do_an_cnpm.Controllers
             {
 
                 var appUser = await _appUserRepository.GetByUserNameAsync(appUserDto.UserName);
-                // var appUser = await _userManager.Users
-                //           .Include(u => u.StudentMajors)
-                //           .ThenInclude(sm => sm.Major)
-                //           .FirstOrDefaultAsync(u => u.UserName == appUserDto.UserName);
+              
 
                 if (appUser == null || !await _userManager.CheckPasswordAsync(appUser, appUserDto.Password))
                 {
