@@ -281,3 +281,4 @@ D:\CONGNGHEPHANMEM\api_do_an_cnpm\obj\Debug\net8.0\refint\api_do_an_cnpm.dll
 D:\CONGNGHEPHANMEM\api_do_an_cnpm\obj\Debug\net8.0\api_do_an_cnpm.pdb
 D:\CONGNGHEPHANMEM\api_do_an_cnpm\obj\Debug\net8.0\api_do_an_cnpm.genruntimeconfig.cache
 D:\CONGNGHEPHANMEM\api_do_an_cnpm\obj\Debug\net8.0\ref\api_do_an_cnpm.dll
+D:\CONGNGHEPHANMEM\api_do_an_cnpm\obj\Debug\net8.0\api_do_an_cnpm.sourcelink.json

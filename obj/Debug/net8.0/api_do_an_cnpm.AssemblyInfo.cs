@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("api_do_an_cnpm")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a717389950f1fc90b67b9d5f9e50afebd1798495")]
 [assembly: System.Reflection.AssemblyProductAttribute("api_do_an_cnpm")]
 [assembly: System.Reflection.AssemblyTitleAttribute("api_do_an_cnpm")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -1,0 +1,530 @@
+[
+  {
+    "ContainingType": "api_do_an_cnpm.Controllers.AppUserController",
+    "Method": "Index",
+    "RelativePath": "api/AppUser",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "api_do_an_cnpm.Controllers.AppUserController",
+    "Method": "GetById",
+    "RelativePath": "api/AppUser/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "api_do_an_cnpm.Controllers.AppUserController",
+    "Method": "Update",
+    "RelativePath": "api/AppUser/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "appUserDto",
+        "Type": "api_do_an_cnpm.Dtos.AppUserDTO.AppUserUpdateDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "api_do_an_cnpm.Controllers.AppUserController",
+    "Method": "AdminRegister",
+    "RelativePath": "api/AppUser/Admin/register",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "appUserDto",
+        "Type": "api_do_an_cnpm.Dtos.AppUserCreateDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "api_do_an_cnpm.Controllers.AppUserController",
+    "Method": "ChangePassword",
+    "RelativePath": "api/AppUser/ChangePassword",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "changePasswordDto",
+        "Type": "api_do_an_cnpm.Dtos.AppUserDTO.AppUserChangePassworDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "api_do_an_cnpm.Controllers.AppUserController",
+    "Method": "ForgotPassword",
+    "RelativePath": "api/AppUser/ForgotPassword",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "appUserForgotDTO",
+        "Type": "api_do_an_cnpm.Dtos.AppUserDTO.AppUserForgotDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "api_do_an_cnpm.Controllers.AppUserController",
+    "Method": "GetAll",
+    "RelativePath": "api/AppUser/GetAllFillterMajor",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "api_do_an_cnpm.Controllers.AppUserController",
+    "Method": "Login",
+    "RelativePath": "api/AppUser/login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "appUserDto",
+        "Type": "api_do_an_cnpm.Dtos.AppUserDTO.AppUserLoginDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "api_do_an_cnpm.Controllers.AppUserController",
+    "Method": "OwnerHouseRegister",
+    "RelativePath": "api/AppUser/OwnerHouse/register",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "appUserDto",
+        "Type": "api_do_an_cnpm.Dtos.AppUserCreateDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "api_do_an_cnpm.Controllers.AppUserController",
+    "Method": "ResetPassword",
+    "RelativePath": "api/AppUser/ResetPassword",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "appUserResetPasswordDTO",
+        "Type": "AppUserResetPasswordDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "api_do_an_cnpm.Controllers.AppUserController",
+    "Method": "StudentRegister",
+    "RelativePath": "api/AppUser/Student/register",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "appUserDto",
+        "Type": "api_do_an_cnpm.Dtos.AppUserCreateDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "api_do_an_cnpm.Controllers.CommentController",
+    "Method": "PostCommentOwerhouse",
+    "RelativePath": "api/Comment",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "commentDTO",
+        "Type": "api_do_an_cnpm.Dtos.CommentDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "api_do_an_cnpm.Controllers.CommentController",
+    "Method": "GetComments",
+    "RelativePath": "api/Comment/{houseId}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "houseId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "request",
+        "Type": "ResponseHelper\u002BPageRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "api_do_an_cnpm.Controllers.CommentController",
+    "Method": "PutComment",
+    "RelativePath": "api/Comment/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "commentDTO",
+        "Type": "api_do_an_cnpm.Dtos.CommentDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "api_do_an_cnpm.Controllers.CommentController",
+    "Method": "DeleteComment",
+    "RelativePath": "api/Comment/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "api_do_an_cnpm.Controllers.CommentController",
+    "Method": "DeleteMultiple",
+    "RelativePath": "api/Comment/DeleteMultiple",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ids",
+        "Type": "System.Collections.Generic.List\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "api_do_an_cnpm.Controllers.CommentController",
+    "Method": "GetReplies",
+    "RelativePath": "api/Comment/GetReplies/{commentId}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "commentId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "request",
+        "Type": "ResponseHelper\u002BPageRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "api_do_an_cnpm.Controllers.CommentController",
+    "Method": "PostCommentUser",
+    "RelativePath": "api/Comment/UserComment",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "commentDTO",
+        "Type": "api_do_an_cnpm.Dtos.CommentDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "api_do_an_cnpm.Controllers.FacilityController",
+    "Method": "GetAll",
+    "RelativePath": "api/Facility",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "api_do_an_cnpm.Controllers.FacilityController",
+    "Method": "Create",
+    "RelativePath": "api/Facility",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "facilityDto",
+        "Type": "api_do_an_cnpm.Dtos.FacilityDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "api_do_an_cnpm.Controllers.FacilityController",
+    "Method": "GetById",
+    "RelativePath": "api/Facility/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "api_do_an_cnpm.Controllers.FacilityController",
+    "Method": "Update",
+    "RelativePath": "api/Facility/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "facilityDto",
+        "Type": "api_do_an_cnpm.Dtos.FacilityDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "api_do_an_cnpm.Controllers.FacilityController",
+    "Method": "Delete",
+    "RelativePath": "api/Facility/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "api_do_an_cnpm.Controllers.FacilityController",
+    "Method": "DeleteMultiple",
+    "RelativePath": "api/Facility/DeleteMultiple",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ids",
+        "Type": "System.Collections.Generic.List\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "api_do_an_cnpm.Controllers.HouseController",
+    "Method": "GetAll",
+    "RelativePath": "api/House",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "api_do_an_cnpm.Controllers.HouseController",
+    "Method": "Create",
+    "RelativePath": "api/House",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "houseDto",
+        "Type": "api_do_an_cnpm.Dtos.HouseDTO.HouseDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "api_do_an_cnpm.Controllers.HouseController",
+    "Method": "GetById",
+    "RelativePath": "api/House/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "api_do_an_cnpm.Controllers.HouseController",
+    "Method": "Update",
+    "RelativePath": "api/House/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "houseDto",
+        "Type": "api_do_an_cnpm.Dtos.HouseDTO.HouseDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "api_do_an_cnpm.Controllers.HouseController",
+    "Method": "Delete",
+    "RelativePath": "api/House/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "api_do_an_cnpm.Controllers.HouseController",
+    "Method": "Accept",
+    "RelativePath": "api/House/Accept/{Id}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "api_do_an_cnpm.Controllers.HouseController",
+    "Method": "Block",
+    "RelativePath": "api/House/Block/{Id}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "api_do_an_cnpm.Controllers.HouseController",
+    "Method": "DeleteMultiple",
+    "RelativePath": "api/House/DeleteMultiple",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ids",
+        "Type": "System.Collections.Generic.List\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "api_do_an_cnpm.Controllers.HouseController",
+    "Method": "UserGetAll",
+    "RelativePath": "api/House/User/GetAll/House",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]
